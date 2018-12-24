@@ -1,0 +1,191 @@
+body{
+    background-image: url("../images/engine.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    margin: none;
+    padding: 0px;
+    
+}
+.fill{
+    background-color: green;
+    
+}
+.button{
+    
+}
+.colSpace{
+    margin-bottom: 20px;
+}
+.card{
+    
+    height: 100%;
+    margin-top: 20px;
+    background-color:#343a40; 
+    color: white;
+    text-align-last: center; 
+    border-radius: 8px;
+    opacity: 90%;
+}
+
+contactHeading{
+    padding-top:25px;
+}
+.navCard{
+    
+    margin-top: 10px;
+    background-color:#343a40; 
+    color: white;
+    text-align-last: center; 
+    border-radius: 8px;
+}
+
+infoCard{
+    justify-content: center;
+}
+
+.cardTitle{
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.titleText{
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.cardImg{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardBody{
+    padding:10px;
+}
+.bodyText{
+     font-weight: 200;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.cardBtn{
+/*
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+*/
+}
+.input-group-btn{
+    flex:1;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+    
+}
+.table{
+    margin-top:20px;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color:#343a40;
+    padding-top: 30px;
+    color: white;
+    text-align-last: center;
+    height: 100px;   
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer ul {
+    
+    height: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.footer li {
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+.footer li a {
+    
+   
+    display: inline:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    opacity: 0.5;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/*
+ * Styles copied from the Grid example to make grid rows & columns visible.
+ */
+.container {
+/*
+  padding-right: 15px;
+  padding-left: 15px;
+*/
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+/*  margin-bottom: 20px;*/
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+/*
+  padding-top: 15px;
+  padding-bottom: 15px;
+*/
+/*
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+*/
+}
+
+@media (min-width: 576px) {
+.hImage{
+	width:5%;
+}
